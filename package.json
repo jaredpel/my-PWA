@@ -12,7 +12,7 @@
     "build": "cd client && npm run build",
     "install": "cd server && npm i && cd ../client && npm i",
     "client": "cd client && npm start",
-    "heroku-postbuild": "webpack --config webpack.prod.js"
+    "heroku-postbuild": "webpack --mode production"
   },
   "dependencies": {
     "express": "^4.17.1"
