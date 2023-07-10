@@ -16,11 +16,12 @@
     "heroku-prebuild": "npm install --dev"
   },
   "dependencies": {
-    "express": "^4.17.1",
-    "webpack": "5.88.1"
+    "express": "^4.17.1"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
-    "nodemon": "^2.0.4"
+    "nodemon": "^2.0.4",
+    "webpack": "5.88.1",
+    "webpack-cli": "5.1.4"
   }
 }
